@@ -1,8 +1,8 @@
-﻿## Hi, I''m Francesco 👋
+﻿## Hi, I'm Francesco 👋
 
 Junior Frontend Developer based in Senigallia, Italy. Hybrid background between mobile QA at Samsung and web development.
 
-I spent 2 years at **Samsung Electronics** as a Mobile QA on AI features (Bixby, SmartThings, Camera AI). Now I''m focusing on frontend development, with a strong interest in AI-native workflows that combine hand-written code with tools like Lovable and Claude Code.
+I spent 2 years at **Samsung Electronics** as a Mobile QA on AI features (Bixby, SmartThings, Camera AI). Now I'm focusing on frontend development, with a strong interest in AI-native workflows that combine hand-written code with tools like Lovable and Claude Code.
 
 ### Tech I work with
 
