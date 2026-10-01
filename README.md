@@ -1,8 +1,10 @@
-﻿## Hi, I'm Francesco 👋
+## Hi, I'm Francesco 👋
 
-Junior Frontend Developer based in Senigallia, Italy. Hybrid background between mobile QA at Samsung and web development.
+### Web Designer & AI Builder · UX/UI · ex QA Samsung
 
-I spent 2 years at **Samsung Electronics** as a Mobile QA on AI features (Bixby, SmartThings, Camera AI). Now I'm focusing on frontend development, with a strong interest in AI-native workflows that combine hand-written code with tools like Lovable and Claude Code.
+Based in Senigallia, Italy. Hybrid background between UX/UI design, mobile QA at Samsung and web development.
+
+I spent 2 years at **Samsung Electronics** as a Mobile QA on AI features (Bixby, SmartThings, Camera AI). Now I design and build websites with AI-native workflows, using tools like Lovable and Claude Code.
 
 ### Tech I work with
 
@@ -19,11 +21,16 @@ I spent 2 years at **Samsung Electronics** as a Mobile QA on AI features (Bixby,
 ![Lovable](https://img.shields.io/badge/-Lovable-FF4081?style=flat&logoColor=white)
 ![Claude](https://img.shields.io/badge/-Claude%20Code-D97757?style=flat&logoColor=white)
 
-### Latest project
+### Latest projects
 
-**[lorenzolivieri](https://github.com/FrancescoPierfederici/lorenzolivieri)** — production author website for an Italian thriller writer. Mobile-first, dark, SEO-ready. Built end-to-end through an AI-native workflow with Lovable.
+- **[LUCE](https://francescopierfederici.github.io/luce-3d-landing/)** — Scroll-driven 3D landing for a fictional perfume: video scrubbed with the scroll and a glass bottle in Three.js. Built with Claude Code. 60 fps, 0.54 s LCP.
+- **[Avanzi](https://github.com/FrancescoPierfederici/avanzi-cantiere)** — Local marketplace for leftover construction materials: 3D globe, weight map and pallet in Three.js. Case study with fictional data. React, TypeScript, MapLibre.
+- **[Lorenzo Livieri](https://lorenzolivieri.vercel.app)** — Production author website for an Italian thriller writer. Mobile-first, dark, SEO-ready. Built with Lovable.
+- **[Meridian](https://francescopierfederici.github.io/meridian-case-study/)** — Front-end & design case study for a fictional architecture studio.
 
 ### Get in touch
 
+- Website: [francescopierf.com](https://francescopierf.com)
+- LinkedIn: [linkedin.com/in/francescopierfederici](https://www.linkedin.com/in/francescopierfederici/)
 - Email: francescopierf@gmail.com
-- Open to: Junior Frontend Developer roles, Italy or remote.
+- Open to: Web Designer, UX/UI Designer, AI Product Designer, Frontend Developer and QA / Software Tester roles, freelance projects and collaborations. Italy or remote.
