@@ -24,7 +24,7 @@ I spent 2 years at **Samsung Electronics** as a Mobile QA on AI features (Bixby,
 ### Latest projects
 
 - **[LUCE](https://francescopierfederici.github.io/luce-3d-landing/)** — Scroll-driven 3D landing for a fictional perfume: video scrubbed with the scroll and a glass bottle in Three.js. Built with Claude Code. 60 fps, 0.54 s LCP.
-- **[Avanzi](https://github.com/FrancescoPierfederici/avanzi-cantiere)** — Local marketplace for leftover construction materials: 3D globe, weight map and pallet in Three.js. Case study with fictional data. React, TypeScript, MapLibre.
+- **[Avanzi](https://francescopierfederici.github.io/avanzi-cantiere/)** — Local marketplace for leftover construction materials: 3D globe, weight map and pallet in Three.js. Case study with fictional data. React, TypeScript, MapLibre.
 - **[Lorenzo Livieri](https://lorenzolivieri.vercel.app)** — Production author website for an Italian thriller writer. Mobile-first, dark, SEO-ready. Built with Lovable.
 - **[Meridian](https://francescopierfederici.github.io/meridian-case-study/)** — Front-end & design case study for a fictional architecture studio.
 
