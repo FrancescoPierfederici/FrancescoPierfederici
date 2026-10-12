@@ -1,36 +1,62 @@
-## Hi, I'm Francesco 👋
+<div align="center">
 
-### Web Designer & AI Builder · UX/UI · ex QA Samsung
+# Francesco Pierfederici
 
-Based in Senigallia, Italy. Hybrid background between UX/UI design, mobile QA at Samsung and web development.
+### Web Designer & AI Builder · UX/UI · Frontend · ex Mobile QA at Samsung
 
-I spent 2 years at **Samsung Electronics** as a Mobile QA on AI features (Bixby, SmartThings, Camera AI). Now I design and build websites with AI-native workflows, using tools like Lovable and Claude Code.
+I design and build thoughtful, interactive websites with AI-native workflows. My work brings together UX/UI, frontend development, and a quality-first approach shaped by two years in mobile QA at Samsung.
 
-### Tech I work with
+[Portfolio](https://francescopierf.com) · [LinkedIn](https://www.linkedin.com/in/francescopierfederici/)
 
-**Languages & Markup**
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile-banner.svg">
+  <img src="./assets/profile-banner.svg" width="100%" alt="Francesco Pierfederici — designing and building for the web">
+</picture>
 
-**Tools & AI Workflow**
-![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat&logo=figma&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
-![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat&logo=vercel&logoColor=white)
-![Lovable](https://img.shields.io/badge/-Lovable-FF4081?style=flat&logoColor=white)
-![Claude](https://img.shields.io/badge/-Claude%20Code-D97757?style=flat&logoColor=white)
+</div>
 
-### Latest projects
+## This is me
 
-- **[LUCE](https://francescopierfederici.github.io/luce-3d-landing/)** — Scroll-driven 3D landing for a fictional perfume: video scrubbed with the scroll and a glass bottle in Three.js. Built with Claude Code. 60 fps, 0.54 s LCP.
-- **[Avanzi](https://francescopierfederici.github.io/avanzi-cantiere/)** — Local marketplace for leftover construction materials: 3D globe, weight map and pallet in Three.js. Case study with fictional data. React, TypeScript, MapLibre.
-- **[Lorenzo Livieri](https://lorenzolivieri.vercel.app)** — Production author website for an Italian thriller writer. Mobile-first, dark, SEO-ready. Built with Lovable.
-- **[Meridian](https://francescopierfederici.github.io/meridian-case-study/)** — Front-end & design case study for a fictional architecture studio.
+- Based in Senigallia, Italy; working across UX/UI, web design, and frontend.
+- Previously mobile QA at Samsung, working on Bixby, SmartThings, and Camera AI.
+- Now building web experiences with tools including Lovable and Claude Code.
 
-### Get in touch
+## Selected work
 
-- Website: [francescopierf.com](https://francescopierf.com)
-- LinkedIn: [linkedin.com/in/francescopierfederici](https://www.linkedin.com/in/francescopierfederici/)
-- Email: francescopierf@gmail.com
-- Open to: Web Designer, UX/UI Designer, AI Product Designer, Frontend Developer and QA / Software Tester roles, freelance projects and collaborations. Italy or remote.
+| Project | What it shows |
+| --- | --- |
+| [LUCE](https://francescopierfederici.github.io/luce-3d-landing/) | Scroll-driven 3D product experience · Three.js |
+| [Avanzi](https://francescopierfederici.github.io/avanzi-cantiere/) | Marketplace concept · React · TypeScript · MapLibre |
+| [Lorenzo Livieri](https://lorenzolivieri.vercel.app/) | Production author website · mobile-first design |
+| [Meridian](https://francescopierfederici.github.io/meridian-case-study/) | Frontend and design case study |
+
+## Signals
+
+<div align="center">
+  <img src="./assets/skills-radar.svg" width="49%" alt="Skills map: UX and UI design, frontend, interactive 3D, quality assurance, and AI-assisted workflow">
+  <img src="./assets/languages-radar.svg" width="49%" alt="Languages used across selected projects: JavaScript, TypeScript, HTML, CSS, and GLSL">
+</div>
+
+These diagrams group areas and technologies shown in my projects; they are not proficiency scores.
+
+## Toolkit
+
+**Design** · Figma · UX/UI  
+**Frontend** · HTML · CSS · JavaScript · React · TypeScript · Three.js · MapLibre · Bootstrap  
+**Workflow** · Git · Vercel · Lovable · Claude Code
+
+## Numbers matter?
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=FrancescoPierfederici&show_icons=true&hide_border=true&theme=transparent" alt="GitHub profile statistics">
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FrancescoPierfederici&layout=compact&hide_border=true&theme=transparent" alt="Most used languages on GitHub">
+
+</div>
+
+<div align="center">
+
+Based in Senigallia, Italy · Open to remote and freelance collaborations  
+[Website](https://francescopierf.com) · [LinkedIn](https://www.linkedin.com/in/francescopierfederici/)
+
+</div>
