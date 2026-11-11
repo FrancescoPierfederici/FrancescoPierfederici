@@ -10,7 +10,7 @@
       <stop offset=".5" stop-color="#ffd27a"/>
       <stop offset=".58" stop-color="#f0f6fc"/>
       <stop offset="1" stop-color="#f0f6fc"/>
-      <animateTransform attributeName="gradientTransform" type="translate" values="0 0;1400 0;1400 0" keyTimes="0;.6;1" dur="7s" repeatCount="indefinite"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="0 0;0 0;1400 0;1400 0" keyTimes="0;.36;.56;1" dur="10s" repeatCount="indefinite"/>
     </linearGradient>
     <radialGradient id="orb" cx=".42" cy=".38" r=".7">
       <stop offset="0" stop-color="#fff6dc"/>
@@ -26,11 +26,26 @@
       <stop offset="0" stop-color="#a78bfa"/>
       <stop offset="1" stop-color="#ffb84d"/>
     </linearGradient>
+    <linearGradient id="warm" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd27a"/>
+      <stop offset="1" stop-color="#ff8a3d"/>
+    </linearGradient>
     <clipPath id="frame"><rect width="1200" height="340" rx="24"/></clipPath>
   </defs>
   <style>
     .eyebrow{font:600 14px 'Segoe UI',Helvetica,Arial,sans-serif;letter-spacing:5px;fill:#a78bfa}
-    .h1{font:700 46px 'Segoe UI',Helvetica,Arial,sans-serif;fill:url(#shine)}
+    .h1{font:700 46px 'Segoe UI',Helvetica,Arial,sans-serif;fill:url(#shine);stroke:#ffd27a;stroke-width:1.2;stroke-dasharray:320;animation:draw 10s cubic-bezier(.5,0,.2,1) infinite}
+    .h1b{animation-delay:.5s;animation-fill-mode:backwards}
+    .warm{fill:url(#warm)}
+    @keyframes draw{
+      0%{stroke-dashoffset:320;fill-opacity:0;stroke-opacity:1;transform:translateY(6px)}
+      20%{stroke-dashoffset:0;fill-opacity:0;stroke-opacity:1;transform:none}
+      30%{fill-opacity:1;stroke-opacity:.8}
+      40%,88%{stroke-dashoffset:0;fill-opacity:1;stroke-opacity:0;transform:none}
+      97%,100%{stroke-dashoffset:0;fill-opacity:0;stroke-opacity:0;transform:translateY(-6px)}
+    }
+    .bar{transform-origin:72px 239px;animation:bar 10s cubic-bezier(.2,.7,.2,1) infinite}
+    @keyframes bar{0%,25%{transform:scaleX(0)}38%,88%{transform:scaleX(1)}97%,100%{transform:scaleX(0)}}
     .now{font:500 14px 'Segoe UI',Helvetica,Arial,sans-serif;letter-spacing:3px;fill:#8b949e}
     .word{font:600 22px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#ffd27a;opacity:0;animation:cycle 12s infinite}
     .w2{animation-delay:3s}.w3{animation-delay:6s}.w4{animation-delay:9s}
@@ -49,7 +64,7 @@
     @keyframes twinkle{50%{opacity:.15}}
     @media (prefers-reduced-motion: reduce){
       *{animation:none!important}
-      .word{opacity:0}.w1{opacity:1}.rise{opacity:1}.ripple{opacity:0}
+      .word{opacity:0}.w1{opacity:1}.rise{opacity:1}.ripple{opacity:0}.h1{stroke-opacity:0}
     }
   </style>
 
@@ -102,11 +117,11 @@
 
     <!-- text -->
     <text class="eyebrow rise d1" x="72" y="86">FRANCESCO PIERFEDERICI</text>
-    <text class="h1 rise d2" x="68" y="150">Designing and building</text>
-    <text class="h1 rise d3" x="68" y="204">for the web.</text>
+    <text class="h1" x="68" y="150">Designing and building</text>
+    <text class="h1 h1b" x="68" y="204">for the <tspan class="warm">web.</tspan></text>
 
     <g class="rise d4">
-      <rect x="72" y="238" width="70" height="2" fill="url(#accent)"/>
+      <rect class="bar" x="72" y="238" width="120" height="3" rx="1.5" fill="url(#accent)"/>
       <circle class="dot" cx="78" cy="273" r="5" fill="#7ee787"/>
       <text class="now" x="92" y="278">NOW</text>
       <text class="word w1" x="146" y="280">UX/UI design</text>
