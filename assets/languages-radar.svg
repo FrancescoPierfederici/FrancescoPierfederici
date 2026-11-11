@@ -1,1 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 330"><rect width="520" height="330" rx="18" fill="#0d1117" stroke="#30363d"/><text x="26" y="34" fill="#79c0ff" font-family="Arial" font-size="13" letter-spacing="2">LANGUAGES · PROJECT STACK</text><g transform="translate(195 180)" fill="none" stroke="#30363d"><polygon points="0,-105 100,-32 62,85 -62,85 -100,-32"/><polygon points="0,-75 71,-23 44,61 -44,61 -71,-23"/><polygon points="0,-45 43,-14 27,36 -27,36 -43,-14"/><path d="M0 0V-105M0 0L100 -32M0 0L62 85M0 0L-62 85M0 0L-100 -32"/></g><polygon points="195,84 265,157 234,224 154,221 119,156" fill="#58a6ff" fill-opacity=".2" stroke="#58a6ff" stroke-width="2"/><g fill="#c6e4ff"><circle cx="195" cy="84" r="4"/><circle cx="265" cy="157" r="4"/><circle cx="234" cy="224" r="4"/><circle cx="154" cy="221" r="4"/><circle cx="119" cy="156" r="4"/></g><g fill="#c9d1d9" font-family="Arial" font-size="12"><text x="172" y="61">JavaScript</text><text x="281" y="160">TypeScript</text><text x="235" y="247">HTML</text><text x="132" y="249">CSS</text><text x="76" y="160">GLSL</text></g><text x="360" y="140" fill="#8b949e" font-family="Arial" font-size="13">Technologies present</text><text x="360" y="160" fill="#8b949e" font-family="Arial" font-size="13">in your projects</text><text x="360" y="190" fill="#58a6ff" font-family="Arial" font-size="12">Illustrative map</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 330" role="img" aria-label="Languages across selected projects: JavaScript, TypeScript, HTML, CSS, GLSL">
+  <defs>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#58a6ff" stop-opacity=".35"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .t{font:600 13px 'Segoe UI',Helvetica,Arial,sans-serif;letter-spacing:2px}
+    .l{font:500 12px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#c9d1d9}
+    .s{font:400 13px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#8b949e}
+    .shape{transform-origin:195px 180px;animation:grow 6s cubic-bezier(.2,.7,.2,1) infinite;animation-delay:.8s}
+    @keyframes grow{0%{transform:scale(0);opacity:0}25%,85%{transform:scale(1);opacity:1}100%{transform:scale(1);opacity:0}}
+    .shape{transform:scale(0)}
+    .p{opacity:0;animation:pop 6s ease-out infinite}
+    .p1{animation-delay:.8s}.p2{animation-delay:.95s}.p3{animation-delay:1.1s}.p4{animation-delay:1.25s}.p5{animation-delay:1.4s}
+    @keyframes pop{0%,15%{opacity:0}25%,85%{opacity:1}100%{opacity:0}}
+    @media (prefers-reduced-motion: reduce){*{animation:none!important}.shape{transform:none}.p{opacity:1}.sw{display:none}}
+  </style>
+  <rect width="520" height="330" rx="18" fill="#0d1117" stroke="#30363d"/>
+  <text class="t" x="26" y="34" fill="#79c0ff">LANGUAGES · PROJECT STACK</text>
+
+  <g transform="translate(195 180)" fill="none" stroke="#30363d">
+    <polygon points="0,-105 100,-32 62,85 -62,85 -100,-32"/>
+    <polygon points="0,-75 71,-23 44,61 -44,61 -71,-23"/>
+    <polygon points="0,-45 43,-14 27,36 -27,36 -43,-14"/>
+    <path d="M0 0V-105M0 0L100 -32M0 0L62 85M0 0L-62 85M0 0L-100 -32"/>
+  </g>
+
+  <clipPath id="penta"><polygon points="195,75 295,148 257,265 133,265 95,148"/></clipPath>
+  <g clip-path="url(#penta)">
+  <path class="sw" d="M195 180L310 180A115 115 0 0 0 276.3 98.7Z" fill="url(#sweep)">
+    <animateTransform attributeName="transform" type="rotate" from="0 195 180" to="360 195 180" dur="4s" begin=".8s" repeatCount="indefinite"/>
+  </path>
+  </g>
+
+  <polygon class="shape" points="195,84 265,157 234,224 154,221 119,156" fill="#58a6ff" fill-opacity=".22" stroke="#58a6ff" stroke-width="2" stroke-linejoin="round"/>
+  <g fill="#c6e4ff">
+    <circle class="p p1" cx="195" cy="84" r="4"/>
+    <circle class="p p2" cx="265" cy="157" r="4"/>
+    <circle class="p p3" cx="234" cy="224" r="4"/>
+    <circle class="p p4" cx="154" cy="221" r="4"/>
+    <circle class="p p5" cx="119" cy="156" r="4"/>
+  </g>
+  <text class="l" x="195" y="62" text-anchor="middle">JavaScript</text>
+  <text class="l" x="306" y="158">TypeScript</text>
+  <text class="l" x="260" y="256">HTML</text>
+  <text class="l" x="140" y="262" text-anchor="end">CSS</text>
+  <text class="l" x="88" y="158" text-anchor="end">GLSL</text>
+
+  <text class="s" x="372" y="150">Technologies used</text>
+  <text class="s" x="372" y="170">across my projects</text>
+  <text x="372" y="200" fill="#58a6ff" font-family="Segoe UI,Arial" font-size="12">Illustrative map</text>
+</svg>

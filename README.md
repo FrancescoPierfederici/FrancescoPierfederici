@@ -45,13 +45,10 @@ These diagrams group areas and technologies shown in my projects; they are not p
 **Frontend** · HTML · CSS · JavaScript · React · TypeScript · Three.js · MapLibre · Bootstrap  
 **Workflow** · Git · Vercel · Lovable · Claude Code
 
-## Numbers matter?
+## How I work
 
 <div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=FrancescoPierfederici&show_icons=true&hide_border=true&theme=transparent" alt="GitHub profile statistics">
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FrancescoPierfederici&layout=compact&hide_border=true&theme=transparent" alt="Most used languages on GitHub">
-
+  <img src="./assets/workflow.svg" width="100%" alt="How I work: Design in Figma, build with React, TypeScript and Three.js, test with a QA mindset, ship on Vercel and GitHub Pages">
 </div>
 
 <div align="center">

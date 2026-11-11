@@ -1,1 +1,119 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 310"><defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0d1117"/><stop offset="1" stop-color="#17132a"/></linearGradient><linearGradient id="line"><stop stop-color="#a78bfa"/><stop offset=".55" stop-color="#58a6ff"/><stop offset="1" stop-color="#7ee787"/></linearGradient></defs><rect width="1200" height="310" rx="24" fill="url(#bg)"/><g fill="none" stroke="#303044"><circle cx="980" cy="150" r="100"/><circle cx="980" cy="150" r="70"/><circle cx="980" cy="150" r="40"/><path d="M860 150h240M980 30v240"/></g><path d="M880 208Q930 50 1025 112T1100 75" fill="none" stroke="url(#line)" stroke-width="3" stroke-dasharray="9 8"><animate attributeName="stroke-dashoffset" values="0;-68" dur="5s" repeatCount="indefinite"/></path><circle cx="880" cy="208" r="7" fill="#a78bfa"><animate attributeName="r" values="5;8;5" dur="2s" repeatCount="indefinite"/></circle><circle cx="1025" cy="112" r="6" fill="#58a6ff"><animate attributeName="r" values="6;9;6" dur="2.5s" repeatCount="indefinite"/></circle><circle cx="1100" cy="75" r="5" fill="#7ee787"/><text x="74" y="87" fill="#a78bfa" font-family="Segoe UI,Arial" font-size="15" letter-spacing="4">FRANCESCO PIERFEDERICI · PROFILE</text><text x="70" y="155" fill="#f0f6fc" font-family="Segoe UI,Arial" font-size="42" font-weight="700">Designing and building</text><text x="70" y="205" fill="#f0f6fc" font-family="Segoe UI,Arial" font-size="42" font-weight="700">for the web.</text><text x="74" y="250" fill="#9da7b3" font-family="Segoe UI,Arial" font-size="18">UX/UI · FRONTEND · INTERACTIVE EXPERIENCES · QUALITY</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-label="Francesco Pierfederici — designing and building for the web">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0d14"/>
+      <stop offset="1" stop-color="#171230"/>
+    </linearGradient>
+    <linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="-600" y1="0" x2="0" y2="0">
+      <stop offset="0" stop-color="#f0f6fc"/>
+      <stop offset=".42" stop-color="#f0f6fc"/>
+      <stop offset=".5" stop-color="#ffd27a"/>
+      <stop offset=".58" stop-color="#f0f6fc"/>
+      <stop offset="1" stop-color="#f0f6fc"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="0 0;1400 0;1400 0" keyTimes="0;.6;1" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="orb" cx=".42" cy=".38" r=".7">
+      <stop offset="0" stop-color="#fff6dc"/>
+      <stop offset=".35" stop-color="#ffc861"/>
+      <stop offset=".75" stop-color="#ff8a3d" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#ff8a3d" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="halo" r=".5">
+      <stop offset="0" stop-color="#ffb84d" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#ffb84d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#ffb84d"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="340" rx="24"/></clipPath>
+  </defs>
+  <style>
+    .eyebrow{font:600 14px 'Segoe UI',Helvetica,Arial,sans-serif;letter-spacing:5px;fill:#a78bfa}
+    .h1{font:700 46px 'Segoe UI',Helvetica,Arial,sans-serif;fill:url(#shine)}
+    .now{font:500 14px 'Segoe UI',Helvetica,Arial,sans-serif;letter-spacing:3px;fill:#8b949e}
+    .word{font:600 22px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#ffd27a;opacity:0;animation:cycle 12s infinite}
+    .w2{animation-delay:3s}.w3{animation-delay:6s}.w4{animation-delay:9s}
+    @keyframes cycle{0%{opacity:0;transform:translateY(10px)}4%,21%{opacity:1;transform:translateY(0)}25%,100%{opacity:0;transform:translateY(-10px)}}
+    .rise{opacity:0;animation:rise .9s cubic-bezier(.2,.7,.2,1) forwards}
+    .d1{animation-delay:.15s}.d2{animation-delay:.35s}.d3{animation-delay:.55s}.d4{animation-delay:.75s}
+    @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+    .dot{animation:blink 1.6s ease-in-out infinite}
+    @keyframes blink{50%{opacity:.25}}
+    .breathe{transform-origin:960px 170px;animation:breathe 5s ease-in-out infinite}
+    @keyframes breathe{50%{transform:scale(1.08)}}
+    .ripple{fill:none;stroke:#ffb84d;transform-origin:960px 170px;animation:ripple 6s ease-out infinite;opacity:0}
+    .r2{animation-delay:2s}.r3{animation-delay:4s}
+    @keyframes ripple{0%{transform:scale(.35);opacity:.55}100%{transform:scale(1.6);opacity:0}}
+    .star{fill:#c9d1d9;animation:twinkle 4s ease-in-out infinite}
+    @keyframes twinkle{50%{opacity:.15}}
+    @media (prefers-reduced-motion: reduce){
+      *{animation:none!important}
+      .word{opacity:0}.w1{opacity:1}.rise{opacity:1}.ripple{opacity:0}
+    }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+
+    <!-- stars -->
+    <g>
+      <circle class="star" cx="640" cy="60" r="1.4"/>
+      <circle class="star" cx="720" cy="280" r="1.2" style="animation-delay:1s"/>
+      <circle class="star" cx="1130" cy="50" r="1.5" style="animation-delay:2s"/>
+      <circle class="star" cx="1150" cy="290" r="1.1" style="animation-delay:.5s"/>
+      <circle class="star" cx="800" cy="40" r="1" style="animation-delay:3s"/>
+      <circle class="star" cx="1080" cy="310" r="1.3" style="animation-delay:1.5s"/>
+      <circle class="star" cx="760" cy="190" r="1" style="animation-delay:2.5s"/>
+    </g>
+
+    <!-- light: orb, ripples, orbits -->
+    <circle cx="960" cy="170" r="230" fill="url(#halo)"/>
+    <circle class="ripple" cx="960" cy="170" r="110" stroke-width="1.5"/>
+    <circle class="ripple r2" cx="960" cy="170" r="110" stroke-width="1.5"/>
+    <circle class="ripple r3" cx="960" cy="170" r="110" stroke-width="1.5"/>
+
+    <g fill="none" stroke-width="1.2">
+      <ellipse cx="960" cy="170" rx="150" ry="46" stroke="#a78bfa" stroke-opacity=".45" transform="rotate(-18 960 170)"/>
+      <ellipse cx="960" cy="170" rx="128" ry="60" stroke="#58a6ff" stroke-opacity=".35" transform="rotate(28 960 170)"/>
+      <ellipse cx="960" cy="170" rx="175" ry="34" stroke="#7ee787" stroke-opacity=".3" transform="rotate(6 960 170)"/>
+    </g>
+
+    <g class="breathe">
+      <circle cx="960" cy="170" r="62" fill="url(#orb)"/>
+    </g>
+
+    <!-- satellites moving on orbits -->
+    <g transform="rotate(-18 960 170)">
+      <circle r="6" fill="#a78bfa">
+        <animateMotion dur="9s" repeatCount="indefinite" path="M1110 170a150 46 0 1 1 -300 0a150 46 0 1 1 300 0"/>
+      </circle>
+    </g>
+    <g transform="rotate(28 960 170)">
+      <circle r="5" fill="#58a6ff">
+        <animateMotion dur="12s" repeatCount="indefinite" path="M832 170a128 60 0 1 0 256 0a128 60 0 1 0 -256 0"/>
+      </circle>
+    </g>
+    <g transform="rotate(6 960 170)">
+      <circle r="4" fill="#7ee787">
+        <animateMotion dur="15s" repeatCount="indefinite" path="M1135 170a175 34 0 1 1 -350 0a175 34 0 1 1 350 0"/>
+      </circle>
+    </g>
+
+    <!-- text -->
+    <text class="eyebrow rise d1" x="72" y="86">FRANCESCO PIERFEDERICI</text>
+    <text class="h1 rise d2" x="68" y="150">Designing and building</text>
+    <text class="h1 rise d3" x="68" y="204">for the web.</text>
+
+    <g class="rise d4">
+      <rect x="72" y="238" width="70" height="2" fill="url(#accent)"/>
+      <circle class="dot" cx="78" cy="273" r="5" fill="#7ee787"/>
+      <text class="now" x="92" y="278">NOW</text>
+      <text class="word w1" x="146" y="280">UX/UI design</text>
+      <text class="word w2" x="146" y="280">Frontend development</text>
+      <text class="word w3" x="146" y="280">Interactive 3D on the web</text>
+      <text class="word w4" x="146" y="280">AI-native workflows</text>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="339" rx="24" fill="none" stroke="#30363d"/>
+</svg>
